@@ -1,0 +1,23 @@
+# Git ignore attributes of bigger media files
+# 18.09.2017
+*.png
+*.PNG
+*.mov
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.ai
+*.jpg
+*.jpeg
+*.JPG
+*.TIFF
+*.tiff
+*.tif
+*.gif
+*.GIF
+*.Gif
+*.gz
+*.psd
+
+wp-content/uploads/
