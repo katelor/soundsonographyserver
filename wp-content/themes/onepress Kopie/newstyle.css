@@ -1,0 +1,278 @@
+/* ==========================================================================
+//http://getbase.orgKLKLKLKLKLKLKLKL
+// Base Stylesheet - http://getbase.org
+// Author: Matthew Hartman - http://www.matthewhartman.com.au/
+// Version: 3.4.0 - Last Updated: May 20, 2017
+
+========================================================================== */
+@keyframes myanimation {
+  from {
+    color: blue;
+    transform: rotateY(0)
+  }
+  to {
+    color: red;
+    transform: rotateY(360deg)
+  }
+}
+
+#container {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background: pink;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+position: absolute; 
+top: 200px;
+left:600px;
+
+}
+
+.text1, #text2 {
+  color: blue;
+  font-family: monospace;
+  font-size: 18px;
+  animation: myanimation 2s infinite
+}
+
+#text2 {
+  color: green
+}
+
+/*---------media Angaben für Video Player-------------------
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px); /* Adjust as needed */
+}
+------------------------------------------------------*/
+
+#container1 {
+  position: relative;
+align: center;
+}
+/*-----------------------link1 ist die liver-oblique-view position---------------------*/
+#link1 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 90px;
+  width: 40px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(55deg)
+}
+
+#link1:hover {
+  border-color: blue;  
+}
+/*----------------------------liver längs position---------------------*/
+#link2 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 90px;
+  width: 40px;
+  position: absolute;
+  top: 400px;
+  left: 300px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(180deg)
+}
+
+#link2:hover {
+  border-color: blue;  
+}
+/*----------------Font Anpassungen----------------------------------------------------------------------*/
+html {
+	font-family: monospace !important;
+}
+
+/*----------------------------------------------anpassung header-----------------------------------------*/
+.site-header{ /* der grau hinterlegte kram*/
+height: 130px !important;
+}
+.site-branding .has-logo-img .site-description{  /* der Schriftzug unter dem Logo ist nun in WP rausgenommen nur falls wieder reinkommt*/
+top: 60px !important;
+font-family: monospace;
+position: absolute !important;
+left: 170px !important;
+color: #0292E5 !important;  /*#62ccff*/
+}
+/*--------------------------------------------------------Anpassung buttons-------------------------------*/
+.files_fm_upload_button{
+border-radius: 0.5em !important;
+}
+.sidebar .widget .search-form .search-submit{
+border-radius: 0.5em !important;
+}
+/*------------------img über container als background omg eingefügt -----------*/
+
+#container2 {
+	background-image: url(https://soundson.avior.uberspace.de/sono/wp-content/uploads/2017/05/AbdomenHintergrund2.png);
+	height: 800px;
+	width: 650px;
+	position: relative;
+	background-size: 690px;
+	
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+/*@media only screen and (max-width: 80)
+  #container3, #container4,{	
+	width: 500px;
+	position: static;
+}
+*/
+
+.desc1{
+	color: pink;
+  	font-family: monospace;
+  	font-size: 12px;
+	position: absolute;
+	top: 700px;
+	left: 10px;
+}
+
+/*--------------FOCUSSITE Platzierung ICONS--------------------------------------*/
+
+
+/*.site_focus {
+  margin: 0 auto;
+  width: 600px;
+  background: gray;
+  margin-top: 100px;
+}
+ 
+.container {
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  display: inline-block;
+}
+*/
+
+/*--------https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_old-----gallery site-------------------*/
+.floating-box-gallery {
+   	float: left;
+	text-align: center;
+	font-family: monospace !important;
+	color: #0292E5 !important;
+	margin-left:auto;
+  	margin-right:auto;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    /*border: 3px solid rgb(98, 204, 255); */ /*---ab hier neu-------*/
+	/*background-color: #EFF1F0;
+	border-radius: 10px;*/
+}
+/*--------https://www.w3schools.com/css/tryit.asp?filename=trycss_inline-block_old---------FocusSite---------------*/
+.floating-box {
+   	float: left;
+	text-align: center;
+	/*font-family: monospace !important;*/
+	font-family:'Sofia'!important;font-size: 16px;
+	color: #0292E5 !important;
+	margin-left:auto;
+  	margin-right:auto;
+    width: 138px;
+    height: 350px;
+    margin: 10px;
+
+    /*border: 3px solid rgb(98, 204, 255); */ /*---ab hier neu-------*/
+	/*background-color: #EFF1F0;
+	border-radius: 10px;*/
+}
+
+/*.after-box {
+    clear: left;
+	border: 3px solid rgb(98, 204, 255);
+	border-radius: 10px;
+	background-color: #EFF1F0;
+}*/
+
+.break, h2{
+font-family: monospace;
+color: #ff0000;
+text-align: center;
+font-size: 13px !important;
+}
+
+.content-area{
+padding-top: 0 !important;
+}
+/*--------------Anpassung an die Media Screens--------------------------*/
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+/*----------------------------A-DIssFoGAlery-----------------------------------*/
+.bf-caption > h4 {
+text-align: center !important;
+padding: 0 0 !important;
+}
+
+.foogallery-simple_portfolio .bf-caption > h4{
+border-bottom: none !important;
+}
+
+.foogallery-simple_portfolio .bf-caption > p {  /*Zweite Zeile unter Bild*/
+font-size: 0.8em;
+text-align: center !important;
+}
+
+.bf-item bf-loaded{
+}
+
+/*--------------------------------------------------------------------*/
+/*#link3 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 60px;
+  width: 30px;
+  position: absolute;
+  top: 130px;
+  left: 225px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(45deg)
+}
+
+#link4 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 60px;
+  width: 30px;
+  position: absolute;
+  top: 400px;
+  left: 225px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(45deg)
+}-------------------------------------------------------------*/

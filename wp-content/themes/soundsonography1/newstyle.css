@@ -1,0 +1,128 @@
+/* ==========================================================================
+//http://getbase.orgKLKLKLKLKLKLKLKL
+// Base Stylesheet - http://getbase.org
+// Author: Matthew Hartman - http://www.matthewhartman.com.au/
+// Version: 3.4.0 - Last Updated: May 20, 2017
+
+========================================================================== */
+@keyframes myanimation {
+  from {
+    color: blue;
+    transform: rotateY(0)
+  }
+  to {
+    color: red;
+    transform: rotateY(360deg)
+  }
+}
+
+#container {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  background: pink;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+position: absolute; 
+top: 200px;
+left:600px;
+
+}
+
+
+
+.text1, #text2 {
+  color: blue;
+  font-family: monospace;
+  font-size: 18px;
+  animation: myanimation 2s infinite
+}
+
+#text2 {
+  color: green
+}
+/*------------------------------------------------------*/
+
+#container1 {
+  position: relative;
+align: center;
+}
+
+#link1 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 85px;
+  width: 35px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(55deg)
+}
+
+#link1:hover {
+  border-color: blue;  
+}
+
+/*------------------img über container als background omg eingefügt -----------*/
+
+#container2 {
+	background-image: url(https://soundson.avior.uberspace.de/sono/wp-content/uploads/2017/05/AbdomenHintergrund2.png);
+	height: 800px;
+	width: 650px;
+	position: relative;
+	background-size: 690px;
+	
+}
+
+#link3 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 60px;
+  width: 30px;
+  position: absolute;
+  top: 130px;
+  left: 225px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(45deg)
+}
+
+#link4 {
+  display: inline-block;
+  background: transparent;
+  border: 3px solid red;
+  height: 60px;
+  width: 30px;
+  position: absolute;
+  top: 260px;
+  left: 225px;
+  cursor: pointer;
+  border-style: dashed;
+  transform: rotate(45deg)
+}
+
+/* inpuformularstyle----------------------------------------*/
+
+.filesfm{
+background-color: powderblue !important;
+padding: 1em !important;
+width: 80% !important;
+border-radius: 4px !important;
+border: none;
+;
+}
+
+.form{
+
+}
+
+.form-group{
+
+}
