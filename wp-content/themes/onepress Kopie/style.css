@@ -702,7 +702,7 @@ h6, p, ul, ol, dl, blockquote, pre {
 	line-height: 75px;
 	position: relative;
 	width: 100%;
-	background: #F1F1F1;     /*background: #F1F1F1; Anstelle von #FFFFFF;aenderungKL*/
+	background: pink;     /*background: #F1F1F1; Anstelle von #FFFFFF;aenderungKL     #F1F1F1*/
 	z-index: 99;
 	-webkit-transition: all 1s ease-out;
 	/* Safari */
@@ -947,7 +947,7 @@ h6, p, ul, ol, dl, blockquote, pre {
 }
 
 .onepress-menu a {
-	color: #333333;
+	color: #333333; /* #0697DE*/
 	font-family: "Raleway", Helvetica, Arial, sans-serif;
 	padding-left: 17px;
 	padding-right: 17px;

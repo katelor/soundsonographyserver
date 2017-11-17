@@ -111,7 +111,7 @@ top: 60px !important;
 font-family: monospace;
 position: absolute !important;
 left: 170px !important;
-color: #0292E5 !important;  /*#62ccff*/
+color: #0292E5  !important;  /*#62ccff    neu#0292E5*/
 }
 /*--------------------------------------------------------Anpassung buttons-------------------------------*/
 .files_fm_upload_button{
