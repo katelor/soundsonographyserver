@@ -702,7 +702,7 @@ h6, p, ul, ol, dl, blockquote, pre {
 	line-height: 75px;
 	position: relative;
 	width: 100%;
-	background: pink;     /*background: #F1F1F1; Anstelle von #FFFFFF;aenderungKL     #F1F1F1*/
+	background: yellow;     /*background: #F1F1F1; Anstelle von #FFFFFF;aenderungKL     #F1F1F1*/
 	z-index: 99;
 	-webkit-transition: all 1s ease-out;
 	/* Safari */
